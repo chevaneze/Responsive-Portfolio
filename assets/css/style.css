@@ -1,120 +1,45 @@
-ul {
-    list-style-type: none;
-    margin-top: 0px;
-    padding-top: 0px;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #ffffff;
+.row.content {
+    height: 750px
 }
 
-li {
-    float: left;
+.sidenav {
+    background-color: #F7DBD7;
+    background-image: url("../images/pink_rice.png") ; 
+    height: 100%;
+   font-family: 'Philosopher', sans-serif;
+   margin-top: 0rem; 
+}
+nav{
+    background-image: url("../images/pink_rice.png") ;  
 }
 
-li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #ddd;
-}
-
-li a.active {
-    color: white;
-    background-color:#4aaaa5;
-}
-.content {
-    max-width: 960px;
-    min-width: 320px;
-    }
-    
-#container{
-    display: block;
-    color: #777777;
-    border: 1px solid #cccccc;
-    text-align: left;
-    background: #ffffff;
-    margin-right: 200px;
-    margin-left: 200px;
-    min-width: 320px;
-   align: left;
-}
-
-
-h1 {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-hr{
-    background-color: #4aaaa5;
-}
-nav{margin-bottom: 100px;
-    width: 100%;
-    margin-top: 0;
-    background-color: purple;
-
-}
-body{
-    background-image: url("../images/dust.png") ;
-    color: #777777;
-    font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
- 
 footer {
-    background: #666666 ;
-    color: #777;
-    position: fixed;
-    bottom:0;
-    width:100%;
-    text-align: center;
-    padding:20px;
+    background-color:#F7DBD7;
+    background-image: url("../images/pink_rice.png") ;
+    padding: 15px;
+   font-family: 'Philosopher', sans-serif;
 }
 
-#box{
-     float: left;
-     width: 100%;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
- 
+body{
+    background-color: #EEEEEE ;    
+   font-family: 'Philosopher', sans-serif;
+    background-image: url("../images/gray.png") ;
+}
+h5{
+    font-size: 24px;
+    font: bold;
+}
+p{
+    font-size: 18px;
 }
 
-#about{
-    margin-left: 270px;
-    margin-right: 100px;
-    margin-bottom: 40px
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
     }
 
-    @media only screen and (max-width: 980px){
-        body {
-          background-color: #fff;
-        }
-        .container {
-             width: 100%;
-            padding: 20px;
-          }
-        }
-    @media  (max-width: 768px){
-        body {
-              background-color: blue;
-            }
-            .container {
-                width: 100%;
-               padding: 20px;
-             }
-            }
-    @media (max-width: 640px){
-    body {
-        background-color: #888888;
-          min-width: 320px;
-      }  .container {
-        width: 100%;
-       padding: 20px;
-     }
+    .row.content {
+        height: auto;
     }
+}
